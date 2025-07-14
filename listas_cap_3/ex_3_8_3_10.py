@@ -1,0 +1,12 @@
+places =["paris","amsterdan","brussels","rome"]
+print(f"{places}\n")
+print(f"{sorted(places)}\n")
+print(f"{places}\n")
+places.reverse()
+print(f"{places}\n")
+places.reverse()
+print(f"{places}\n")
+places.sort()
+print(f"{places}\n")
+places.sort(reverse=True)
+print(f"{places}\n")
