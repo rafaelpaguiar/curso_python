@@ -1,0 +1,5 @@
+No Python, podemos armazenar valores em variáveis.
+No Python, podemos criar listas, conjuntos, tuplas  e dicionários.
+No Python, podemos realizar testes condicionais com if.
+No Python, podemos realizar loops com for e while.
+No Python, podemos criar funções e classes.
