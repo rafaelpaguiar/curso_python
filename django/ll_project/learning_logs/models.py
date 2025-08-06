@@ -19,5 +19,9 @@ class Entry(models.Model):
         verbose_name_plural = 'entries'
     
     def __str__(self):
-        """Retorna uma string simples representando a entrada"""
-        return f"{self.text[:50]}..."
+        if len(self.text ) < 50:
+            """Retorna uma string simples representando a entrada"""
+            return self.text
+        else:
+            """Retorna uma string simples representando a entrada"""
+            return f"{self.text[:50]}..."
